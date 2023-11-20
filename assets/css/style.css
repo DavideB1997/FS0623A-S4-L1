@@ -278,6 +278,9 @@ footer a {
     margin-bottom: 4em;
   }
 
+  form fieldset input{
+    width: 80%
+  }
 }
 
 
@@ -286,7 +289,6 @@ footer a {
     font-size: 1.7em;
     padding: 2em 7em;
   }
-
 
   /* header */
   header{
@@ -330,6 +332,8 @@ footer a {
     display: inline-block;
     width: 33%;
   }
+
+  
 }
 
 
