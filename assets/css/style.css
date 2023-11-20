@@ -334,7 +334,21 @@ footer a {
 
 
 @media print {
+  body{
+    font-size: 2.2em;
+  }
+  header, main, aside{
+    border: 0px;
+    box-shadow: none;
+  }
 
+  header, aside, footer{
+    display: none
+  }
+
+  article section {
+    display:none
+  }
 }
 
 
